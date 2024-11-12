@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  
+</head>
+<body>
+  <main>
+    <div class="user-container">
+      <div class="avatar-box">
+        <img class="avatar-img" src="./images/image-jeremy.png" alt="vatar picture">
+        <h1><span>Report for</span> Jeremy Robson</h1>
+      </div>
+
+      <!-- menu -->
+      <div class="menu-box">
+        <ul>
+          <li><a id="daily" href="#">Daily</a></li>
+          <li><a id="weekly" href="#">Weekly</a></li>
+          <li><a id="monthly" href="#">Monthly</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item work">
+      <div class="content-box">
+        <div class="subject-box"><span class="suject">Work</span> <img src="./images/icon-ellipsis.svg" alt=""></div>
+        <div class="time-box"><span class="hrs" id="work-hrs">32hrs</span> <span class="time" id="work-time">Last Week - 36hrs</span></div>
+      </div>
+    </div>
+
+    <div class="item play">
+      <div class="content-box">
+        <div class="subject-box"><span class="suject">Play</span> <img src="./images/icon-ellipsis.svg" alt=""></div>
+        <div class="time-box"><span class="hrs" id="play-hrs">10hrs</span> <span class="time" id="play-time">Last Week - 8hrs</span></div>
+      </div>
+    </div>
+    
+    <div class="item study">
+      <div class="content-box">
+        <div class="subject-box"><span class="suject">Study</span> <img src="./images/icon-ellipsis.svg" alt=""></div>
+        <div class="time-box"><span class="hrs" id="study-hrs">4hrs</span> <span class="time" id="study-time">Last Week - 7hrs</span></div>
+      </div>
+    </div>
+
+    <div class="item exercise">
+      <div class="content-box">
+        <div class="subject-box"><span class="suject">Exercise</span> <img src="./images/icon-ellipsis.svg" alt=""></div>
+        <div class="time-box"><span class="hrs" id="exercise-hrs">4hrs</span> <span class="time" id="exercise-time">Last Week - 5hrs</span></div>
+      </div>
+    </div>
+    
+    <div class="item social">
+      <div class="content-box">
+        <div class="subject-box"><span class="suject">Social</span> <img src="./images/icon-ellipsis.svg" alt=""></div>
+        <div class="time-box"><span class="hrs" id="social-hrs">5hrs</span> <span class="time" id="social-time">Last Week - 10hrs</span></div>
+      </div>
+    </div>
+    
+    <div class="item selfcare">
+      <div class="content-box">
+        <div class="subject-box"><span class="suject">Self care</span> <img src="./images/icon-ellipsis.svg" alt=""></div>
+        <div class="time-box"><span class="hrs" id="slefcare-hrs">2hrs</span> <span class="time" id="slefcare-time">Last Week - 2hrs</span></div>
+      </div>
+    </div>
+  </main>
+  
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Hossein-H-I</a>.
+    </div>
+  </footer>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
